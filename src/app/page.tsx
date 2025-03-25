@@ -70,10 +70,10 @@ export default async function Home() {
             <a href="https://bsky.app/profile/coilysiren.me">@coilysiren.me</a>
           </h1>
           <p className="text-lg text-center sm:text-left">
-            Welcome to my bluesky application. I am a software engineer and I
-            love to build things. I am currently working on a project that will
-            help developers to build applications faster.
+            queer 🏳️‍🌈 black woman 🖤 & software engineer 👩🏽‍💻 (devops)
           </p>
+          <h2 className="text-2xl font-bold text-left">Following:</h2>
+          <hr className="w-full border-1 border-black" />
           <ul className="flex flex-col gap-4 items-center sm:items-start">
             {((await getFollowers("coilysiren.me")) || []).map(
               (follower: Follower) => (
