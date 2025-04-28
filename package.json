@@ -12,7 +12,7 @@
     "@atproto/api": "^0.14.10",
     "bootstrap": "^5.3.3",
     "launchdarkly-js-client-sdk": "^3.5.0",
-    "next": "15.2.3",
+    "next": "15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
